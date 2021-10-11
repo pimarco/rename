@@ -11,23 +11,39 @@ positional arguments:
   
   methods: renaming methods specified with method[+method] where method=cdate|mdate|imgdate|num1-9|name|lname|uname
 
+methods:
+
+* cdate: file creation date
+
+* mdate: file modification date
+
+* imgdate: jpeg image file date
+
+* num1-9: file number where 1-9 is the number of digit of the file number
+
+* name: original file name
+
+* lname: oroginal lowercase file name
+
+* uname: oroginal uppercase file name
+
 optional arguments:
 
-  -h, --help    show this help message and exit
+* -h, --help:    show this help message and exit
+
+* -r:            rename file recursively in all directory under the specified one
   
-  -r            rename file recursively in all directory under the specified one
+* -c COLLISION:  add a rename collision number with the specified number of digit (no collision number is added by default)
   
-  -c COLLISION  add a rename collision number with the specified number of digit (no collision number is added by default)
+* -s:            show the new file name that will be used without renaming any files
   
-  -s            show the new file name that will be used without renaming any files
+* -e EXT_IN:     extension of the files that will be renamed (all files rename by default)
   
-  -e EXT_IN     extension of the files that will be renamed (all files rename by default)
+* -p PREFIX_IN:  the file name prefix of the files that will be renamed (all files rename by default)
   
-  -p PREFIX_IN  the file name prefix of the files that will be renamed (all files rename by default)
+* -x EXT_OUT:    file extension of the renamed file (keep the same extension by default
   
-  -x EXT_OUT    file extension of the renamed file (keep the same extension by default
-  
-  --version     show program's version number and exit
+* --version:     show program's version number and exit
   
 ## Examples
 
