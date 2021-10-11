@@ -53,7 +53,7 @@ Rename image files from directory myimage with the family prefix followed by the
 rename.py -x jpg myimage family+imgdate
 ```
 
-Use the -c option if some file renaming result in collision (with same file name)
+Use the -c option if some file renaming result in collision (with same file name). This will add a number at the end of the file name and this number will be increase each time that a file name get in collision.
 
 ```
 rename.py -c1 myimage family+imgdate
