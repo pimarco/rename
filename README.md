@@ -9,9 +9,7 @@ positional arguments:
 
   dir: directory that contains the files to rename
   
-  methods: renaming methods specified with method[+method] where method=cdate|mdate|imgdate|num1-9|name|lname|uname
-
-methods:
+  methods: renaming methods specified with method[+method] where method can be one of the following:
 
 * cdate: file creation date
 
