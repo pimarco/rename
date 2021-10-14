@@ -21,9 +21,9 @@ positional arguments:
 
 * name: original file name
 
-* lname: oroginal lowercase file name
+* lname: original lowercase file name
 
-* uname: oroginal uppercase file name
+* uname: original uppercase file name
 
 optional arguments:
 
@@ -33,7 +33,7 @@ optional arguments:
   
 * -c COLLISION:  add a rename collision number with the specified number of digit (no collision number is added by default)
   
-* -s:            show the new file name that will be used without renaming any files
+* -s:            just show the new file name that will be used without renaming any files
   
 * -e EXT_IN:     extension of the files that will be renamed (all files rename by default)
   

@@ -106,7 +106,7 @@ def main():
     parser = argparse.ArgumentParser(description=desc)
     parser.add_argument('-r', action='store_true', dest='recurse', default=False, help='rename file recursively in all directory under the specified one')
     parser.add_argument('-c', action='store', dest='collision', type=int, default=0, help='add a rename collision number with the specified number of digit (no collision number is added by default)')
-    parser.add_argument('-s', action='store_true', dest='show', default=False, help='show the new file name that will be used without renaming any files')
+    parser.add_argument('-s', action='store_true', dest='show', default=False, help='just show the new file name that will be used without renaming any files')
     parser.add_argument('-e', action='store', dest='ext_in', type=str, default=None, help='extension of the files that will be renamed (all files rename by default)')
     parser.add_argument('-p', action='store', dest='prefix_in', type=str, default=None, help='the file name prefix of the files that will be renamed (all files rename by default)')
     parser.add_argument('-x', action='store', dest='ext_out', type=str, default=None, help='file extension of the renamed file (keep the same extension by default')
